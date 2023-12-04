@@ -7,12 +7,12 @@ function Header() {
       </header>
 
       <nav>
-        <a href="http://127.0.0.1:8000">Home</a>
-        <a href="http://127.0.0.1:8000/about">About Us</a>
-        <a href="http://127.0.0.1:8000/awards">Awards</a>
-        <a href="http://127.0.0.1:8000/events">Events</a>
-        <a href="http://127.0.0.1:8000/sponsor">sponsorship</a>
-        <a href="http://127.0.0.1:8000/contact">Contact</a>
+        <a href="http://127.0.0.1:5173/">Home</a>
+        <a href="http://127.0.0.1:5173/about-us">About Us</a>
+        <a href="http://127.0.0.1:5173/awards">Awards</a>
+        <a href="http://127.0.0.1:5173/#">Events</a>
+        <a href="http://127.0.0.1:5173/#">sponsorship</a>
+        <a href="http://127.0.0.1:5173/#">Contact</a>
       </nav>
     </div>
   );
