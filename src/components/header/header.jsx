@@ -10,9 +10,9 @@ function Header() {
         <a href="http://127.0.0.1:5173/">Home</a>
         <a href="http://127.0.0.1:5173/about-us">About Us</a>
         <a href="http://127.0.0.1:5173/awards">Awards</a>
-        <a href="http://127.0.0.1:5173/#">Events</a>
-        <a href="http://127.0.0.1:5173/#">sponsorship</a>
-        <a href="http://127.0.0.1:5173/#">Contact</a>
+        <a href="http://127.0.0.1:5173/events">Events</a>
+        <a href="http://127.0.0.1:5173/Sponsorship">sponsorship</a>
+        <a href="http://127.0.0.1:5173/contact">Contact</a>
       </nav>
     </div>
   );

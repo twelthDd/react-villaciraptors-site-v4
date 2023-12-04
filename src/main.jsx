@@ -4,6 +4,8 @@ import AboutUs from "./pages/aboutUs.jsx";
 import Home from "./pages/home.jsx";
 import Awards from "./pages/awards.jsx";
 import Events from "./pages/events.jsx";
+import Sponsorship from "./pages/Sponsorship.jsx";
+import Contact from "./pages/contact.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <Events />,
+  },
+  {
+    path: "/sponsorship",
+    element: <Sponsorship />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
