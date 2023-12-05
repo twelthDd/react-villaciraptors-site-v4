@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AboutUs from "./pages/aboutUs.jsx";
-import Home from "./pages/home.jsx";
-import Awards from "./pages/awards.jsx";
-import Events from "./pages/events.jsx";
-import Sponsorship from "./pages/Sponsorship.jsx";
-import Contact from "./pages/contact.jsx";
+import AboutUs from "./pages/about us/aboutUs.jsx";
+import Home from "./pages/home/home.jsx";
+import Awards from "./pages/awards/awards.jsx";
+import Events from "./pages/events/events.jsx";
+import Sponsorship from "./pages/sponsorship/Sponsorship.jsx";
+import Contact from "./pages/contact/contact.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
