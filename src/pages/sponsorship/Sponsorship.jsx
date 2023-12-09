@@ -46,16 +46,18 @@ function Sponsorship() {
       <div>
         <h2 className={style.subTitle}>Informational Package</h2>
         <center>
-          <embed
+          <iframe
             className={style.pdf}
             src="/src/assets/pdfs/(NEW) EN - Team 9076 Sponsorship Packet.pdf"
             width="80%"
             height="800px"
+            overflow="hidden"
           />
         </center>
         <a href="https://drive.google.com/file/d/1Ng00n6wS9dJtp1tB9FR0pPVAxquJr7qQ/view">
           <button className={style.button}>View PDF</button>
         </a>
+
         <br />
         <br />
         <br />
