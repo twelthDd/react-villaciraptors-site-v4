@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import AboutUs from "./pages/about us/aboutUs.jsx";
 import Home from "./pages/home/home.jsx";
 import Awards from "./pages/awards/awards.jsx";
-import Events from "./pages/events/events.jsx";
+// import Events from "./pages/events/events.jsx";
 import Sponsorship from "./pages/sponsorship/Sponsorship.jsx";
 import Contact from "./pages/contact/contact.jsx";
 import "./index.css";
@@ -22,10 +22,10 @@ const router = createBrowserRouter([
     path: "/awards",
     element: <Awards />,
   },
-  {
-    path: "/events",
-    element: <Events />,
-  },
+  // {
+  //   path: "/events",
+  //   element: <Events />,
+  // },
   {
     path: "/sponsorship",
     element: <Sponsorship />,

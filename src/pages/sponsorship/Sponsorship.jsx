@@ -1,3 +1,4 @@
+// import Header from "../../components/old header/header";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import style from "./Sponsorship.module.css";

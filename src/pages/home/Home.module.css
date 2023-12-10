@@ -1,3 +1,39 @@
 .title {
   text-align: center;
 }
+
+p {
+  text-align: center;
+}
+.titleDiv {
+  text-align: center;
+}
+.button {
+  background-color: rgb(40, 96, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subTitle {
+  text-align: left;
+  color: hsl(220, 64%, 32%);
+  margin-left: 5%;
+  display: flex;
+}
+
+.ourStoryP {
+  text-align: left;
+  display: inline-flex;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 50%;
+}
