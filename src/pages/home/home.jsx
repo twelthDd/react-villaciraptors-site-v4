@@ -30,7 +30,7 @@ function Home() {
         </a>
       </div>
       <br />
-      <div>
+      <div className={style.ourStoryDiv}>
         <h2 className={style.subTitle}>Our Story</h2>
         <p className={style.ourStoryP}>
           Villaciraptors 9076, a Montreal-based First Robotics team, embarked on
@@ -41,8 +41,8 @@ function Home() {
           a global contest designed for high school students. Through our
           experiences and challenges, we continue to evolve and learn, striving
           for excellence.
+          <img src="src/assets/pics/2022-Team.bmp" alt="" />
         </p>
-        <img src="src/assets/pics/2022-Team.bmp" alt="" />
       </div>
       <Footer />
     </>
